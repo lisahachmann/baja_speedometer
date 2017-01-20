@@ -1,0 +1,23 @@
+Baja: State as of the end of the Fall semester 2016. 
+LHachmann
+
+-had picked AH9250 as the hall effect sensor
+-had bought 10 magnets of ~3 lb. pull force to attach onto axle
+	-had determined that 1 magnet's range to hall effect sensor was ~1 cm. 
+	-determined that stronger magnets could be bought (but capped as to not disturb the half shaft) or magnets could be put into stronger order. 
+-3 arduino nanos had been bought
+-code for hall effect sensing (in RPM)--> bluetooth sending had been written 
+	-tested in parts: sending has been tested and verified, hall effect sensing has been tested and verified
+	-overall however is untested
+		-concept is that if we're reading 0000001100000011 where 1 means that the magnet is near, then we measure the time between getting 1's
+-code for (general) bluetooth receiving had been written
+-LCD screen worked with the pins 7-12
+	-D4 to pin 9
+	-D5 to pin 10
+	-D6 to pin 11
+	-D7 to pin 12
+	-RS to pin 7
+	-E to pin 8
+-thermal sensor had been picked out and bought
+	-no code had been written due to uncertainty over correct microprocessor/communication handling (I2C)
+-(bad) solderboards had been started for the bluetooth chips
