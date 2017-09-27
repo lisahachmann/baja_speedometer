@@ -38,7 +38,7 @@ SoftwareSerial BTserial(2, 3);
  
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(38400);
 
   Serial.println("Adafruit MLX90614 test");  
   rpm = 0; 
@@ -50,7 +50,7 @@ void setup() {
   readyToSend = false;
   pinMode(sensorpin, INPUT); 
   BTserial.begin(38400);  
-  Serial.println("BTserial started at 9600");
+  Serial.println("BTserial started at 38400");
   mlx.begin();  
 }
 
