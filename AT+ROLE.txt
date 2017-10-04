@@ -1,0 +1,16 @@
+AT+ROLE
+
+Address: 18:91:d8dd4e
+Role: master
+Name: MAST1
+BT #: 2
+Password: 2492
+Baud Rate: 38400
+
+Address: 2016:8:16166
+Role: slave
+Name: SLAVE1
+BT #: 1
+Password: 2942
+Baud Rate: 38400
+
